@@ -10,3 +10,5 @@ dist
 *.egg-info
 build
 .DS_Store
+wpp_bot_ai/Lib/site-packages/torch/lib/torch_cpu.dll
+wpp_bot_ai/Lib/site-packages/torch/lib/dnnl.lib
