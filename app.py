@@ -1,6 +1,11 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'bot')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'services')))
+
 from flask import Flask, request, jsonify
-from bot.ai_bot import AIBot
-from services.waha import Waha
+from ai_bot import AIBot
+from waha import Waha
 
 app = Flask(__name__)
 
