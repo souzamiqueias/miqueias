@@ -10,3 +10,5 @@ dist
 *.egg-info
 build
 .DS_Store
+venv/Lib/site-packages/torch/lib/torch_cpu.dll
+venv/Lib/site-packages/torch/lib/dnnl.lib
