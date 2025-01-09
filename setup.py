@@ -11,7 +11,7 @@
 # This source code is licensed under the terms described in the LICENSE file in
 # the root directory of this source tree.
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def read_requirements():
@@ -38,6 +38,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/meta-llama/llama-models",
     package_dir={"llama_models": "llama_models"},
+    packages=find_packages(),
     classifiers=[],
     python_requires=">=3.10",
     install_requires=read_requirements(),

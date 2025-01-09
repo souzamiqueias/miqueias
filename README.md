@@ -15,3 +15,11 @@ Certifique-se de que você tenha os seguintes requisitos instalados em seu siste
 Com o ambiente virtual ativado, instale as dependências do projeto usando o comando:
 ```bash
 pip install -r requirements.txt
+
+## Baixar Arquivos Grandes
+
+Para baixar e mover os arquivos grandes, siga os passos abaixo:
+
+1. Obtenha os links diretos para os arquivos `torch_cpu.dll` e `dnnl.lib` no Google Drive.
+2. Baixe manualmente os arquivos.
+3. Mova os arquivos para o diretório `venv/Lib/site-packages/torch/lib`.
